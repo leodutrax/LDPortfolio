@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header {
+    width: 100vw;
+}
+
+.links {
+    text-align: center;
+    background-color: #0e2a75;
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Roboto';
+}
+
+.links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 910px 220px;
+    text-align: right;
+    align-items: center;
+    background-color: #0e2a75;
+    margin-top: -0.35%;
+    margin-left: -0.4%;
+}
+
+.nome {
+    display: grid;
+    text-align: left;
+    margin-left: 2.5%;
+    color: white;
+    font-size: xx-large;
+    background-color: #0e2a75;
+    width: 350px;
+    padding: 10px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Roboto';
+}
+
+.nome2 {
+    display: grid;
+    text-align: left;
+    margin-left: 2.5%;
+    color: white;
+    font-size: xx-large;
+    background-color: #0e2a75;
+    width: 110px;
+    padding: 10px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Roboto';
+}
+
+.nome3 {
+    display: grid;
+    text-align: left;
+    margin-left: 2.5%;
+    color: white;
+    font-size: xx-large;
+    background-color: #0e2a75;
+    width: 160px;
+    padding: 10px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Roboto';
+}
+
+.pags {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 200px 200px 200px;
+    text-align: right;
+    margin-left: 450px;
+}
+
+.texto {
+    color: white;
+    background-color: #0e2a75;
+    font-size: xx-large;
+    border-radius: 15px;
+    width: 30%;
+    padding: 45px;
+    text-align: center;
+    margin-left: 1190px;
+    margin-top: 175px;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Roboto';
+}
+
+.foto {
+    width: 500px;
+    height: 500px;
+    max-height: 100vh;
+    margin-top: -480px;
+    margin-left: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.fotos2{
+    display: grid;
+    justify-content: center;
+    gap: 10rem;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100vw;
+    height: 55vh;
+    justify-items: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 75px;
+    
+}
+
+.fotos2 a{
+    display: grid;
+    font-size: 1px;
+    gap: 35px;    
+    justify-items: center;
+    text-decoration-color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.txt-image2{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';    
+    font-style: normal;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #0e2a75;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.button-link:hover {
+    background-color: #0e2a75;
+    transform: scale(1.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#git, #linkedin, #whats, #email {
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+#python, #js, #jira, #git2, #html{
+    font-size: 100px;
+}
+
+#java{
+    font-size: 100px;
+    display: grid;
+    gap: 40px;
+}
+
+.icons {
+    margin-left: 173px;
+    margin-top: 45px;
+    width: 330px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.icons2{
+    display: grid;
+    justify-content: center;
+    gap: 0rem;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100vw;
+    height: 55vh;
+    justify-items: center;
+    align-items: center;
+    margin-top: 170px;
+    color: rgba(255, 255, 255, 0.836);
+    text-shadow: 2px 2px 2px black;
+}
+
+.icons2 i{
+    display: grid;
+    font-size: 1px;
+    gap: 35px;    
+    justify-items: center;
+
+}
+
+.icons2 p{
+    font-size: 27px;
+}
+
+a {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #3955aa;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    z-index: -10;
+}
